@@ -1,0 +1,44 @@
+{
+	"name": "combat-and-abilities",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedFirst": {
+			"$ignoreUnknownInstances": true,
+			"$path": "src/ReplicatedFirst"
+		},
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$ignoreUnknownInstances": true,
+			"$path": "src/ReplicatedStorage"
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$ignoreUnknownInstances": true,
+			"$path": "src/ServerScriptService"
+		},
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"$ignoreUnknownInstances": true,
+			"$path": "src/ServerStorage"
+		},
+		"StarterPack" : {
+			"$className": "StarterPack",
+			"$ignoreUnknownInstances": true,
+			"$path": "src/StarterPack"
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"$ignoreUnknownInstances": true,
+			"$properties": {
+				"CharacterWalkSpeed" : 32,
+				"LoadCharacterAppearance" : false,
+				"EnableMouseLockOption" : false
+			},
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$ignoreUnknownInstances": true,
+				"$path": "src/StarterPlayerScripts"
+			}
+		}
+	}
+}
