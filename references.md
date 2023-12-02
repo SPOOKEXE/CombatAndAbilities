@@ -10,15 +10,14 @@ https://www.youtube.com/watch?v=nyyOnpJnSBI
 [melee-mechanism]
 - block
 - block break
-- punch
-- kick
+- punch/kick
 - dash
-
-[weapon-combat]
-- melee combos
 
 [magic-abilities]
 - yuruzuu (water dragon, energy explosion, etc)
 - volcano eruptions
 
 -- particle physics?
+
+[weapon-combat]
+- melee combos

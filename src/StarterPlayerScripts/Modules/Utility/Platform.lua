@@ -9,9 +9,8 @@ function Module.GetPlatform()
 		return "Console"
 	elseif UserInputService.TouchEnabled and (not UserInputService.MouseEnabled) then
 		return "Mobile"
-	else
-		return "Desktop"
 	end
+	return "Desktop"
 end
 
 return Module

@@ -1,7 +1,7 @@
 local hitboxBlock = Instance.new('Part')
 hitboxBlock.Name = ''
 hitboxBlock.Color = Color3.new(1, 0, 0)
-hitboxBlock.Transparency = 0.5
+hitboxBlock.Transparency = 1
 hitboxBlock.CanCollide = false
 hitboxBlock.CanTouch = true
 hitboxBlock.CanQuery = true

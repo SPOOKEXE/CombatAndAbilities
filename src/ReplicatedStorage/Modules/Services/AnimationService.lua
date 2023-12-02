@@ -78,8 +78,6 @@ function Module.LoadAnimationsDeep( Animator, array_or_dict ) : table
 		end
 		cachedParent[parentTable] = true
 
-		parentTable = parentTable or { }
-
 		-- load an array of animations (assumes no nested table and only values)
 		if #animTable > 0 then
 			local animTracks = Module.LoadAnimationsArray( Animator, animTable )
@@ -91,9 +89,8 @@ function Module.LoadAnimationsDeep( Animator, array_or_dict ) : table
 		for animName, animValue in pairs( animTable ) do
 			-- nested table of animations
 			if typeof(animValue) == "table" then
-				local tracks = {}
-				DeepSearch( animValue, tracks )
-				animTable[animName] = tracks
+				animTable[animName] = DeepSearch( animValue )
+				print(animTable)
 				continue
 			end
 
